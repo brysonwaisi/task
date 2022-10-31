@@ -19,7 +19,7 @@ export const data = [
     },
     {
         name: 'Python Books',
-        url: 'https://books.zuri.team/python-for-beginners?ref_id=FlovianOwiti',
+        url: 'https://books.zuri.team/python-for-beginners?ref_id=Brysonwaisi',
         id: 'book__python',
         title: 'Get Python books for beginner'
     },
