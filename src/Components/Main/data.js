@@ -1,7 +1,7 @@
 export const data = [
     {
         name: 'Twitter Link',
-        url: 'https://twitter.com/',
+        url: 'https://twitter.com/ ',
         id:  'twitter_link',
         title: ''
     },
