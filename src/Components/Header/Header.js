@@ -16,7 +16,7 @@ const Header = () => {
             <RiShareForwardLine className='share-bar fs-1 d-none d-sm-block position-absolute top-0 start-100 translate-middle border p-2 rounded-5' style={{marginTop:'2rem',marginLeft:'-20%'}}/>
         </nav>
     </header>
-  </>
+  </> 
 }
 
 export default Header
