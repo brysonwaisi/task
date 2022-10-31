@@ -1,0 +1,14 @@
+.me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#profile__img {
+    width:8rem;
+    height:8rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
