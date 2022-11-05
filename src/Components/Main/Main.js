@@ -8,7 +8,7 @@ import Header from '../Header/Header'
 
 const Home = () =>{
     return <>
-    {/* <Header /> */}
+    <Header />
      <main className ='row mx-0 my-3'>
         <section className='col-10 my-0 mx-auto list-group'>
             {
