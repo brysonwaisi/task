@@ -1,4 +1,5 @@
 import React from "react";
+import './Contact.css'
 
 const Contact = () => {
     return <main className='row mx-0 my-3 d-flex justify-content-center align-content-center w-100' >
