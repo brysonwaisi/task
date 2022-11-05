@@ -1,10 +1,14 @@
 import React from "react";
 import { data } from "./data";
+import {Link} from 'react-router-dom'
 import SL from '../../assets/slack.png'
 import {AiOutlineGithub} from 'react-icons/ai'
+import uuid from "react-uuid";
+import Header from '../Header/Header'
 
 const Home = () =>{
     return <>
+    <Header />
      <main className ='row mx-0 my-3'>
         <section className='col-10 my-0 mx-auto list-group'>
             {
@@ -18,6 +22,8 @@ const Home = () =>{
 
                 )
             }
+
+            <Link id="contact" key={uuid()} to='/contact' className='border-0 text-center fw-normal fs-6 rounded-3 p-3 list-group-item list-group-item-secondary list-group-item-action my-2'>Contact Me</Link>
 
         </section>
         <section className="col-10 my-0 mx-auto text-center">
